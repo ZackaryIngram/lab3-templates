@@ -23,5 +23,11 @@
     <ClInclude Include="SimpleVector.h">
       <Filter>Source Files</Filter>
     </ClInclude>
+    <ClInclude Include="SearchVector.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SortableVector.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
