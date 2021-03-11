@@ -2,6 +2,7 @@
 #include <iostream>
 #include "SimpleVector.h"
 #include "SearchVector.h"
+#include "SortableVector.h"
 using namespace std;
 
 int main()
@@ -43,6 +44,9 @@ int main()
 
 	cout << "These values are in doubleTable: " << endl;
 	dTable.print();
+
+
+
 
 	int result;
 	int userNum;

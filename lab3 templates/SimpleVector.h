@@ -24,6 +24,9 @@ public:
 	T& operator[](int);
 	void print() const;
 
+	void push_back();
+	void pop_back();
+
 };
 
 template <class T>
@@ -87,4 +90,31 @@ void SimpleVector<T>::print() const
 		cout << aptr[i] << " ";
 	}
 	cout << endl;
+}
+
+template<class T>
+inline void SimpleVector<T>::push_back()
+{
+	for (int i = 0; i < arraySize + 1; i++)
+	{
+		for (int i = 0; i < arraySize; i++)
+		{
+			cout << aptr[i] << " ";
+		}
+	}
+	cout << endl;
+}
+
+template<class T>
+inline void SimpleVector<T>::pop_back()
+{
+	for (int i = 0; i < arraySize - 1; i++)
+	{
+		for (int i = 0; i < arraySize; i++)
+		{
+			cout << aptr[i] << " ";
+		}
+	}
+	cout << endl;
+
 }
